@@ -1,0 +1,8 @@
+type Query {
+    version : String!
+    # Get person with ID
+    person(id: ID!): Person
+
+    # Get persons by name
+    personsByName(name: String!): [Person]
+}
