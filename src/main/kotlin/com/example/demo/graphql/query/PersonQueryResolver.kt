@@ -8,5 +8,4 @@ import org.springframework.stereotype.Component
 class PersonQueryResolver(val personService: PersonService): GraphQLQueryResolver {
     fun person(id: String) = personService.getPersonById(id)
     fun personsByName(name: String) = personService.getPersonsByName(name)
-
 }
