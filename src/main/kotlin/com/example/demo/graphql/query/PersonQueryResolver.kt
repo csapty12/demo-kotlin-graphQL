@@ -1,6 +1,7 @@
 package com.example.demo.graphql.query
 
 import com.coxautodev.graphql.tools.GraphQLQueryResolver
+import com.example.demo.data.Person
 import com.example.demo.service.PersonService
 import org.springframework.stereotype.Component
 
